@@ -1,4 +1,4 @@
-function zad3(array){
+function exam(array){
     let twins = array.shift().split(' ')
     let row = array.shift()
     let moves = 1;
@@ -35,7 +35,7 @@ function zad3(array){
         console.log(`${twins.join(' ')}`);
     }
 }
-zad3
+exam
 ([
     "1 1 2 2 3 3 4 4 5 5", 
     "1 0",
